@@ -12,7 +12,8 @@ public class MainMethod {
         Tree tree = new Tree();
         if (in.hasNextInt())
             n = in.nextInt();
-        else throw new IOException("Type mismatch");
+        else 
+            throw new IOException("Type mismatch");
         while (i < n) {
             tree.add(in.nextInt(), 0);
             i++;
