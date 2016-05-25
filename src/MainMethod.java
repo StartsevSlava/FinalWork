@@ -18,6 +18,5 @@ public class MainMethod {
             tree.add(in.nextInt(), 0);
             i++;
         }
-
     }
 }
